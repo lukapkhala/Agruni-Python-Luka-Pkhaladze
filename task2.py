@@ -1,7 +1,7 @@
 n = int(input("Enter natural number (<= 1000): "))
 
 while n > 1000:
-    n = input("Enter natural number (<= 1000): ")
+    n = int(input("Enter natural number (<= 1000): "))
 
 s = ""
 for i in range(1, n + 1):
